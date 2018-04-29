@@ -13,4 +13,6 @@ func main() {
 	text, _ := reader.ReadString('\n')
 	fmt.Println(text)
 
+	// this is single line comment
+
 }
