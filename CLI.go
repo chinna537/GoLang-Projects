@@ -1,17 +1,16 @@
 package main
 
-//import (
-//	"bufio"
-//	"fmt"
-//	"os"
-//)
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
 
-//func main() {
+func main() {
 
-//	reader := bufio.NewReader(os.Stdin)
-//	fmt.Println("enter the text")
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Println("enter the text")
+	text, _ := reader.ReadString('\n')
+	fmt.Println(text)
 
-//	text, _ := reader.ReadString('\n')
-//	fmt.Println(text)
-
-//}
+}
